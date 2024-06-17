@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "388373839384",
+    "project_id": "melodra-539fc",
+    "storage_bucket": "melodra-539fc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:388373839384:android:be96107ad350164be84d6d",
+        "android_client_info": {
+          "package_name": "com.example.melodra"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDB-2D1ei2MLeO-mRZQPwXh7QYqdrGwH1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:gravity="center"
+
+    android:background="@color/black"
+    tools:context=".SignupActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <ImageView
+            android:layout_width="180dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo_melodra"
+            />
+
+
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+android:padding="25dp"
+        android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email address"
+        android:textColorHint="@color/black"
+        android:padding="16dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/rounded_corner"
+        android:id="@+id/email_edittext"
+        />
+        
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/black"
+            android:padding="16dp"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_corner"
+            android:id="@+id/password_edittext"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Confirm Password"
+            android:textColorHint="@color/black"
+            android:padding="16dp"
+            android:inputType="textPassword"
+            android:background="@drawable/rounded_corner"
+            android:id="@+id/confirm_password_edittext"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+        
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_corner"
+            android:text="Create Account"
+
+            android:id="@+id/create_account_btn"
+
+            />
+
+        <ProgressBar
+            android:layout_width="32dp"
+            android:layout_height="60dp"
+            android:visibility="gone"
+            android:id="@+id/progress_bar"
+            android:indeterminateTint="@color/white"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="25dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Already have an account?"
+            android:id="@+id/goto_login_btn"
+            android:textColor="@color/white"
+            android:gravity="center"
+
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
