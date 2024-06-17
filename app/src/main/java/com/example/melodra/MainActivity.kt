@@ -144,6 +144,7 @@ class MainActivity : AppCompatActivity() {
                 }
             }
             false
+
         }
 
     }
@@ -151,6 +152,7 @@ class MainActivity : AppCompatActivity() {
     fun logout(){
         MyExoplayer.getInstance()?.release()
         FirebaseAuth.getInstance().signOut()
+        finish()
         startActivity(Intent(this,LoginActivity::class.java))
 
     }

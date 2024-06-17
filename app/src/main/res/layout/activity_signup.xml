@@ -37,17 +37,18 @@
 android:padding="25dp"
         android:orientation="vertical">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="Email address"
-        android:textColorHint="@color/black"
-        android:padding="16dp"
-        android:inputType="textEmailAddress"
-        android:background="@drawable/rounded_corner"
-        android:id="@+id/email_edittext"
-        />
-        
+        <EditText
+            android:id="@+id/email_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_corner"
+            android:hint="Email address"
+            android:textColor="@color/black"
+
+            android:inputType="textEmailAddress"
+            android:padding="16dp"
+            android:textColorHint="@color/black" />
+
         <View
             android:layout_width="match_parent"
             android:layout_height="25dp"/>
@@ -56,6 +57,8 @@ android:padding="25dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Password"
+            android:textColor="@color/black"
+
             android:textColorHint="@color/black"
             android:padding="16dp"
             android:inputType="textPassword"
@@ -72,6 +75,8 @@ android:padding="25dp"
             android:hint="Confirm Password"
             android:textColorHint="@color/black"
             android:padding="16dp"
+            android:textColor="@color/black"
+
             android:inputType="textPassword"
             android:background="@drawable/rounded_corner"
             android:id="@+id/confirm_password_edittext"/>
